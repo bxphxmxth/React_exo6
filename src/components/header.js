@@ -5,8 +5,14 @@ class Header extends React.Component{
 
      render(){
           return (
-               <div>
-                    Ceci est le header
+               <div className="header" >
+                    
+                    <p>Home</p>
+                    <p>Pages</p>
+                    <p> A propos</p>
+
+
+
                </div>
           )
      }

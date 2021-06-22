@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  background-color: rgb(246, 120, 120);
+  display: flex;
+  padding: 10px;
+  
+}
+
+.header>p{
+  margin: 10px;
+  cursor: pointer;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
