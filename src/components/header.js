@@ -1,17 +1,19 @@
 import React from "react";
 
+let count = 0;
 
 class Header extends React.Component{
 
-     jaiClique() {
-          alert("hello");
+     jaiClique(e) {
+          count +=1;
+          e.target.innerText = (`J'ai été cliqué ${count} fois `)
      }
 
      render(){
           return (
-               <div className="header" >
+               <div onClick={this.jaiClique} className="header" >
                     
-                    <p onClick={this.jaiClique} >Home</p>
+                    <p  >Home</p>
                     <p>Pages</p>
                     <p>A propos</p>
 
