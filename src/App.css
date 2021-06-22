@@ -53,3 +53,17 @@
   margin: 0;
   padding: 0;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 10%;
+  background-color: rgba(246, 120, 120, 0.555);
+  
+}
+
+.btn-success{
+  margin-top: 50px;
+  margin-left: 45%;
+}
