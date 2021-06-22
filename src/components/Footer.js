@@ -8,14 +8,14 @@ class Footer extends React.Component {
                         
                          <button type="button" className="btn btn-success rounded-0">Bouton Bootstrap</button> 
 
-                         <div class="card">
+                         <div class="card foot">
                           <div class="card-header">
-                        Featured
+                        Footer
                     </div>
                     <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Contact</a>
                     </div>
                     </div>
 

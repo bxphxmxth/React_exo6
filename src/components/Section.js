@@ -1,6 +1,6 @@
 import React from "react";
 
-class Contenu extends React.Component{
+class Section extends React.Component{
 
      render(){
           return(
@@ -14,4 +14,4 @@ class Contenu extends React.Component{
      }
 }
 
-export default Contenu;
+export default Section;

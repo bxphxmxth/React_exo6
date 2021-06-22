@@ -3,13 +3,17 @@ import React from "react";
 
 class Header extends React.Component{
 
+     jaiClique() {
+          alert("hello");
+     }
+
      render(){
           return (
                <div className="header" >
                     
-                    <p>Home</p>
+                    <p onClick={this.jaiClique} >Home</p>
                     <p>Pages</p>
-                    <p> A propos</p>
+                    <p>A propos</p>
 
 
 

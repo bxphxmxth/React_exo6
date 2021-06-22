@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import Header from "./components/Header";
-import Contenu from "./components/Contenu"
+import Section from "./components/Section"
 import Footer from "./components/Footer";
 
 import './App.css';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
      <Header />
-     <Contenu />
+     <Section />
      <Footer />
     </div>
   );
