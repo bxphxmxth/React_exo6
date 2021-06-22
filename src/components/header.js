@@ -7,13 +7,14 @@ class Header extends React.Component{
      jaiClique(e) {
           count +=1;
           e.target.innerText = (`J'ai été cliqué ${count} fois `)
+          console.log(e.target.element)
      }
 
      render(){
           return (
                <div onClick={this.jaiClique} className="header" >
                     
-                    <p  >Home</p>
+                    <p>Home</p>
                     <p>Pages</p>
                     <p>A propos</p>
 
